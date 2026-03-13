@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import {
   useUpdateJobTitleMutation,
   useGetJobTitleByIdQuery,
-} from "../../../api/JobTitlesApi";
+} from "../../../api/jobTitlesApi";
 import SectionBox from "../../../components/ui/containers/SectionBox";
 import TextInput from "../../../components/reusable_components/TextInput";
 import AddingButton from "../../../components/ui/buttons/AddingBtn";
