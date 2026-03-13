@@ -33,7 +33,7 @@ import AttendanceDepartmentApi from '../api/AttendanceDepartmentApi';
 import disciplinaryActionsApi from '../api/disciplinaryActionsApi';
 import attendanceDepartmentRequestsApi from '../api/AttendanceDepartmentRequestsApi';
 import leavesApi from '../api/LeavesManagmentApi';
-import carriedForwardLeavesApi from '../api/CarriedForwardLeavesApi';
+import carriedForwardLeavesApi from '../api/carriedForwardLeavesApi';
 import financialTransactionsApi from '../api/financialTransactionsApi';
 import flightTicketsApi from '../api/flightTicketsApi';
 const rootReducer = combineReducers({
