@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { useGetJobTitleByIdQuery } from '../../api/JobTitlesApi';
+import { useGetJobTitleByIdQuery } from '../../api/jobTitlesApi';
 import SectionBox from '../../components/ui/containers/SectionBox';
 import CancelButton from '../../components/ui/buttons/CancelBtn';
 import { LuPencil } from 'react-icons/lu';
