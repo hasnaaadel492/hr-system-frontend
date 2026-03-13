@@ -12,7 +12,7 @@ import { useGetAllEmployeeQuery } from "../../../api/Employee";
 import {
   useGetCarriedForwardLeaveByIdQuery,
   useUpdateCarriedForwardLeaveMutation,
-} from "../../../api/CarriedForwardLeavesApi";
+} from "../../../api/carriedForwardLeavesApi";
 
 const EditCarriedForwardLeave = () => {
   const { t } = useTranslation();
