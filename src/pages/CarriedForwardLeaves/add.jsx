@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 import { toast } from "react-toastify";
 
 import { useGetAllEmployeeQuery } from "../../api/Employee";
-import { useCreateCarriedForwardLeaveMutation } from "../../api/CarriedForwardLeavesApi";
+import { useCreateCarriedForwardLeaveMutation } from "../../api/carriedForwardLeavesApi";
 
 const AddCarriedForwardLeave = () => {
   const { t } = useTranslation();
