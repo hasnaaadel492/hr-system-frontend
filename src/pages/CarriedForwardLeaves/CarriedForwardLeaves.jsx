@@ -10,7 +10,7 @@ import { toast } from "react-toastify";
 import {
   useGetAllCarriedForwardLeavesQuery,
   useDeleteCarriedForwardLeaveMutation,
-} from "../../api/CarriedForwardLeavesApi";
+} from "../../api/carriedForwardLeavesApi";
 
 const CarriedForwardLeaves = () => {
   const { t } = useTranslation();
