@@ -68,7 +68,7 @@ import ShowPlane from './pages/Plans/[id]';
 
 
 
-import MySubscription from './pages/Subscriptions/my_subscriptions';
+import MySubscription from './pages/subscriptions/my_subscriptions';
 
 
 import Profile from './pages/Profile/Profile';
