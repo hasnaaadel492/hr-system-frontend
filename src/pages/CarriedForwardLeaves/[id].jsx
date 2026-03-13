@@ -5,7 +5,7 @@ import { LuPencil } from "react-icons/lu";
 import SectionBox from "../../components/ui/containers/SectionBox";
 import CancelButton from "../../components/ui/buttons/CancelBtn";
 
-import { useGetCarriedForwardLeaveByIdQuery } from "../../api/CarriedForwardLeavesApi";
+import { useGetCarriedForwardLeaveByIdQuery } from "../../api/carriedForwardLeavesApi";
 
 const ShowCarriedForwardLeave = () => {
   const { id } = useParams();
